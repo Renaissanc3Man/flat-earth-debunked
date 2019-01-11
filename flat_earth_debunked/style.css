@@ -1,0 +1,128 @@
+.country {
+  fill: #b8b8b8;
+  stroke: #fff;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+}
+
+
+.flightPlan{
+  fill: none;
+}
+
+.flightPlan-selected{
+  fill: gold;
+  stroke: black;
+}
+
+.flightPlan1{
+  fill: none;
+}
+
+.flightPlan1-selected{
+  fill: gold;
+  stroke: black;
+}
+
+
+.cityLabel1{
+  fill: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+
+.cityLabel1-selected{
+  fill: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+
+.travelPoint{
+  fill: blue;
+  stroke: black;
+}
+
+.plane{
+  fill: #b8b8b8;
+  stroke: black;
+}
+
+.plane1{
+  fill: #b8b8b8;
+  stroke: black;
+}
+
+.travelPoint1{
+  fill: blue;
+  stroke: black;
+}
+
+
+
+.graticule {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .3;
+  stroke-width: .5px;
+}
+
+.graticule-outline {
+  fill: none;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+
+
+
+.axis text{
+  font-weight: normal;
+}
+
+
+.axis path,
+.axis line{
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+
+
+
+
+
+.grid .tick{
+  stroke: lightgrey;
+  opacity: 0.7;
+}
+
+.grid path{
+  stroke-width: 0;
+}
+
+
+
+
+.barTitle{
+  font-size: 20px;
+}
+
+
+.chartOutline{
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+}
